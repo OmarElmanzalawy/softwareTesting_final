@@ -15,6 +15,10 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands'
+import './accordion'
+import './actions'
+import './buttonClicks'
+import './contactus'
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
