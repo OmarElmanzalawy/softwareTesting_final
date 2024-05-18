@@ -4,7 +4,7 @@ beforeEach(function(){
 
 
 describe('Actions', () => {
-    it.only('[1] Double Click', () => {    
+    it('[1] Double Click', () => {    
       cy.DoubleClick()
     });
 

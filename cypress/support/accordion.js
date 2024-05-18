@@ -9,7 +9,7 @@ Cypress.Commands.add('cucumber',() => {
 })
 
 Cypress.Commands.add('AutomationTesting',() => {
-    cy.get('#automation-accordion').click();
+  cy.get('#automation-accordion').click();
   cy.get('#automation-testing-description > p').should('contain','Automation testing has been steadily grown in popularity these past few years thanks to the time/ cost savings and efficiency that it offers. Companies throughout the world have or plan to use automation testing to rapidly speed up their test capabilities. Automation test engineers are in great demand and offer an average salary of £45,000+ (2018). Now is a great time to learn about automation test engineering and this')
   })
 
